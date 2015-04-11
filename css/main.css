@@ -1,3 +1,11 @@
+/* --------------------------------------- */
+/* -- STYLESHEET IMPORTS -- */
+@import "home_stylesheet.css";
+@import "book_entry_stylesheet.css";
+
+
+
+/* --------------------------------------- */
 /* -- DEFAULT STYLE SETTINGS -- */
 body {
     margin: 0;
@@ -11,31 +19,8 @@ h1 {
     font-family: HelveticaNeue;
     font-size: 22px;
     font-weight: bold;
-    color: rgb(0,0,0);
+    color: rgb(63,72,204);
     text-align: center;
 }
-nav {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: center;
-    -webkit-justify-content: center;
-    margin: 20px;
-}
-a {
-    text-decoration: none;
-    color: black;
-    font-family: HelveticaNeue;
-    font-size: 18px;
-    font-weight: bold;
-}
-ul {
-    padding: 0;
-    margin: 0;
-}
-li {
-    list-style: none;
-}
 
 
-@import "home_stylesheet.css";
