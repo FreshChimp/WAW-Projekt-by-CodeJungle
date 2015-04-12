@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="de">
+    <meta charset="UTF-8">
+    <title>Buch anlegen</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+
+    <header>
+        <h1>Buch anlegen</h1>
+    </header>
+
+    <form class="form_wrapper">
+        <!--Left Form Content-->
+        <div class="left_content_wrapper">
+            <div class="labels">
+                <h4>Buchtitel</h4>
+                <h4>Buchautor</h4>
+                <h4>ISBN</h4>
+                <h4>Kapitel</h4>
+                <h4>Erscheinungsjahr</h4>
+                <h4>Auflage</h4>
+                <h4>Art des Buches</h4>
+                <h4>Genre</h4>
+            </div>
+
+            <!--Input fields-->
+            <div class="inputs">
+                <input type="text" name="titel" maxlength="100">
+                <input type="text" name="autor" maxlength="100">
+                <input type="text" name="isbn" minlentgh="10" maxlength="13">
+                <input type="number" value="kapitel" minlentgh="1" maxlength="100">
+                <input type="number" value="jahr" min="1000" max="9999" step="1">
+                <input type="number" value="auflage" min="1" max="100">
+                <!--Dropdown Menu for Book Type-->
+                <select name="art" size="1">
+                    <option value="eBook">eBook</option>
+                    <option value="Newspaper">Newspaper</option>
+                    <option value="Taschenbuch">Taschenbuch</option>
+                    <option value="Lexikon">Lexikon</option>
+                    <option value="Hardcover" selected="selected">Hardcover</option>
+                    <option value="Paperback">Paperback</option>
+                </select>
+                <!--Checkboxes for Genre-->
+                <div class="genre_wrapper">
+                    <!--Left Checkboxes-->
+                    <div class="left_checkboxes">
+                        <input type="checkbox" value="genre" checked="checked">
+                            <span class="checkbox_label">Horror</span><br>
+                        <input type="checkbox" value="genre">
+                            <span class="checkbox_label">Psycho</span><br>
+                        <input type="checkbox" value="genre">
+                            <span class="checkbox_label">Krimi</span>
+                    </div>
+                    <!--Right Checkboxes-->
+                    <div class="right_checkboxes">
+                        <input type="checkbox" value="genre">
+                            <span class="checkbox_label">Doku</span><br>
+                        <input type="checkbox" value="genre">
+                            <span class="checkbox_label">Komödie</span><br>
+                        <input type="checkbox" value="genre">
+                            <span class="checkbox_label">Romanze</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Right Form Content-->
+        <div class="right_content_wrapper">
+            <div class="labels">
+                <h4>Dein Vorname</h4>
+                <h4>Dein Nachname</h4>
+                <h4>Mein Favorit</h4>
+            </div>
+
+            <div class="inputs">
+                <input type="text" name="vorname" maxlength="100">
+                <input type="text" name="name" maxlength="100">
+                <input class="favorit_checkbox" type="checkbox" value="favorit">
+            </div>
+        </div>
+    </form>
+    <div class="submit_button">
+        <button type="submit" name="submit">Absenden</button>
+    </div>
+
+
+</body>
+</html>
