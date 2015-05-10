@@ -1,0 +1,60 @@
+nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.menu_wrapper_mybooks {
+    width: 600px;
+    height: 50px;
+    background-color: green;
+}
+.menu_item_mybooks {
+    height: 20px;
+    width: 50%;
+    background-color: rgb(63,72,204);
+    text-align: center;
+}
+.menu_item_mybooks:hover {
+    background-color: rgb(0,162,232);
+}
+
+/* ---------------------------- */
+/* -- table styling -- */
+table {
+    border-collapse: collapse;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.table_heading {
+    font-weight: bold;
+}
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(63,72,204);
+    text-align: left;
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+#table_content {
+    color: rgb(63,72,204);
+}
+.column_s {
+    width: 20px;
+}
+.column_m {
+    width: 90px;
+}
+.column_l {
+    width: 120px;
+}
