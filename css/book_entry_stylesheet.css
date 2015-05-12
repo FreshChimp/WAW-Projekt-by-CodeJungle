@@ -30,6 +30,8 @@ select {
     justify-content: center;
     -webkit-justify-content: center;
     margin-top: 20px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 }
 
 /* ------------------------ */
