@@ -30,6 +30,8 @@ select {
     justify-content: center;
     -webkit-justify-content: center;
     margin-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
 }
@@ -73,6 +75,7 @@ select {
     justify-content: center;
     -webkit-justify-content: center;
     margin: 20px;
+    margin-right: 100px;
 }
 
 /* ------------------------ */
