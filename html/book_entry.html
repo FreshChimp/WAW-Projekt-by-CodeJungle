@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Buch anlegen</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script type="text/javascript" src="../js/validate.js"></script>
 </head>
 <body>
 
@@ -27,12 +28,12 @@
 
             <!--Input fields-->
             <div class="inputs">
-                <input type="text" name="titel" maxlength="100">
-                <input type="text" name="autor" maxlength="100">
-                <input type="text" name="isbn" minlentgh="10" maxlength="13">
-                <input type="number" value="kapitel" minlentgh="1" maxlength="100">
-                <input type="number" value="jahr" min="1000" max="9999" step="1">
-                <input type="number" value="auflage" min="1" max="100">
+                <input id="titel" type="text" name="titel" maxlength="100">
+                <input id="autor" type="text" name="autor" maxlength="100">
+                <input id="isbn" type="text" name="isbn" minlentgh="10" maxlength="13">
+                <input id="kapitel" type="number" value="kapitel" minlentgh="1" maxlength="100">
+                <input id="jahr" type="number" value="jahr" min="1000" max="9999" step="1">
+                <input id="auflage" type="number" value="auflage" min="1" max="100">
                 <!--Dropdown Menu for Book Type-->
                 <select name="art" size="1">
                     <option value="eBook">eBook</option>
@@ -80,10 +81,10 @@
                 <input class="favorit_checkbox" type="checkbox" value="favorit">
             </div>
         </div>
+        <div class="submit_button" onclick="">
+            <button type="submit" name="submit">Absenden</button>
+        </div>
     </form>
-    <div class="submit_button" onclick="">
-        <button type="submit" name="submit">Absenden</button>
-    </div>
 
 
 </body>

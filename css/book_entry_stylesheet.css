@@ -30,6 +30,8 @@ select {
     justify-content: center;
     -webkit-justify-content: center;
     margin-top: 20px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 }
 
 /* ------------------------ */
@@ -82,6 +84,8 @@ select {
     display: -webkit-flex;
     justify-content: center;
     -webkit-justify-content: center;
+    width: 100%;
+
 }
 button {
     width: 200px;
