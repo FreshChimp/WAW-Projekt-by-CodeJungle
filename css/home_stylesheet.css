@@ -73,10 +73,6 @@ li {
     width: 300px;
     height: 170px;
     background-color: rgb(63,72,204);
-
-
-    /* For Debugging */
-
 }
 .menu_item {
     position: relative;
@@ -86,5 +82,5 @@ li {
     line-height: 45px;
 }
 .menu_item:hover {
-    background-color: rgb(0,162,232);
+
 }

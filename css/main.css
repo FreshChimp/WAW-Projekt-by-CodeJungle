@@ -2,7 +2,7 @@
 /* -- STYLESHEET IMPORTS -- */
 @import "home_stylesheet.css";
 @import "book_entry_stylesheet.css";
-
+@import "mybooks_stylesheet.css";
 
 
 /* --------------------------------------- */
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    font-family: HelveticaNeue;
+    font-family: Arial;
     font-size: 22px;
     font-weight: bold;
     color: rgb(63,72,204);

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="de">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <title>Books</title>
+    <script type="text/javascript" src="../js/main.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <h1>Meine Bücher</h1>
+    </header>
+
+    <!--Table Menu-->
+    <nav>
+        <div class="switcher_wrapper">
+            <div class="switcher">
+                <div id="horror_tab" class=switcher_item onclick="tabSwitcherHorror()">
+                    <li class="switcher_item">Horror</li>
+                </div>
+                <div id="roman_tab" class="switcher_item" onclick="tabSwitcherRoman()">
+                    <li class="switcher_item">Roman</li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="romanTable" id="horrorContent">
+        <script>renderHorrorTable(horror)</script>
+    </div>
+    <div class="horrorTable" id="romanContent" style="display: none">
+        <script>renderRomanTable(roman)</script>
+    </div>
+
+</body>
+</html>

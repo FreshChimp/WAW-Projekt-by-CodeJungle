@@ -7,7 +7,7 @@ select {
     margin-top: 20px;
 }
 .labels {
-    font-family: HelveticaNeue;
+    font-family: Arial;
     font-weight: bold;
     margin-right: 40px;
     margin-left: 60px;
@@ -30,10 +30,6 @@ select {
     justify-content: center;
     -webkit-justify-content: center;
     margin-top: 20px;
-    padding-left: 250px;
-    padding-right: 250px;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
 }
 
 /* ------------------------ */
@@ -55,7 +51,7 @@ select {
     -webkit-justify-content: center;
     margin-top: 5px;
     font-size: 14px;
-    font-family: HelveticaNeue;
+    font-family: Arial;
     font-weight: bold;
 }
 .right_checkboxes {
@@ -75,7 +71,6 @@ select {
     justify-content: center;
     -webkit-justify-content: center;
     margin: 20px;
-    margin-right: 100px;
 }
 
 /* ------------------------ */
@@ -91,7 +86,7 @@ select {
 button {
     width: 200px;
     height: 30px;
-    font-family: HelveticaNeue;
+    font-family: Arial;
     font-weight: bold;
     font-size: 12px;
     color: rgb(63,72,204);
